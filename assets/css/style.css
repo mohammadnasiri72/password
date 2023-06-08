@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../font/Yekan.ttf");
+}
+
+body {
+    font-family: "yekan";
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    margin-top: 10%;
+    border-bottom: 3px solid red;
+    width: 30%;
+    padding-bottom: 50px;
+}
+.input{
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    width: 20%;
+    height: 3rem;
+    outline: none;
+    margin-top: 20px;
+}
+.icon-eye{
+    position: relative;
+    right: 17%;
+    font-size: 30px;
+    top: 10px;
+    cursor: pointer;    
+}
+
+
+
+
+
